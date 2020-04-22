@@ -1,0 +1,30 @@
+body
+{
+    background-color: rgb(59, 52, 52);
+    color: white;
+}
+.georgiafamily
+{
+    font-family: cursive;    
+}
+.skybluecolor
+{
+    color:skyblue;
+}
+.yellow
+{
+    color: yellow;
+}
+.boldtext
+{
+    font-weight: bold;
+}
+.tomatored
+{
+    color: tomato;
+}
+.moodsSection img
+{
+    width: 400px;
+    height: 400px;
+}
