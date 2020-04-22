@@ -54,10 +54,20 @@ body
 p:first-letter {
     font-size: 20px;
 }
+.myfavoritemovies ol
+{
+        transform: rotate(180deg);
+        margin-left: 30px;
+}
+.myfavoritemovies ol li
+{
+    transform: rotate(-180deg);
+}
+
+
 .myfavoritemovies .movieinfolist
 {
     list-style-type: none;
-
 }
 .myfavoritemovies .movieinfolist 
 {
