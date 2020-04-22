@@ -1,0 +1,41 @@
+body
+{
+    background-color: #f1f1f1;
+}
+.center
+{
+    text-align: center;
+}
+.defaulttitle
+{
+    background-color: #dedede;
+    color: #14c314;
+    text-decoration: underline;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+.boldspan
+{
+    font-weight: bold;
+}
+section .usercomment 
+{
+    background-color: #ffff7a;
+    padding: 10px 13px;
+    margin-top: 10px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.linkssection a
+{
+    color: #14c314;
+}
+.linkssection p 
+{
+    margin: 0;
+}
+footer
+{
+    text-align: right;
+}
