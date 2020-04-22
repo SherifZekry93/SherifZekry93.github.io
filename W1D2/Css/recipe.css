@@ -1,18 +1,35 @@
 body
 {
-    background-color: #f1f1f1;
+    background: url(../Images/recipeImages/silverware.jpg);
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia,Garamond,Arial, Helvetica, sans-serif;
+    background-position:fixed;
 }
 .center
 {
     text-align: center;
 }
+header h1{
+    font-size: 22pt;
+    letter-spacing:  0.25em;
+}
+h3
+{
+    font-size:  18pt;
+    letter-spacing:  0.25em;
+}
 .defaulttitle
 {
-    background-color: #dedede;
-    color: #14c314;
+    color: #A4A400;
     text-decoration: underline;
     padding: 10px 0;
     text-transform: uppercase;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial;
+}
+.defaulttitle span
+{
+    background-color: #F0F0F0;
 }
 .boldspan
 {
@@ -20,7 +37,7 @@ body
 }
 section .usercomment 
 {
-    background-color: #ffff7a;
+    background-color: #FFFFA8;
     padding: 10px 13px;
     margin-top: 10px;
     width: 80%;
@@ -29,7 +46,7 @@ section .usercomment
 
 .linkssection a
 {
-    color: #14c314;
+    color: #A4A400;
 }
 .linkssection p 
 {
@@ -38,4 +55,13 @@ section .usercomment
 footer
 {
     text-align: right;
+}
+.strikeout
+{
+    text-decoration: line-through;
+}
+ul
+{
+    list-style-image: url('../Images/recipeImages/pie_bullet.png');
+
 }
