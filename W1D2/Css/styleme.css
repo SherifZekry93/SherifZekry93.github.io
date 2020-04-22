@@ -43,5 +43,10 @@ body
 
 .myfavoritemovies a
 {
+    text-decoration: none;
     
+}
+.myfavoritemovies a:hover
+{
+    text-decoration: underline;
 }
