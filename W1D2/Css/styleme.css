@@ -50,3 +50,30 @@ body
 {
     text-decoration: underline;
 }
+
+p:first-letter {
+    font-size: 20px;
+}
+.myfavoritemovies .movieinfolist
+{
+    list-style-type: none;
+
+}
+.myfavoritemovies .movieinfolist 
+{
+    margin: 0;
+    padding: 0;
+}
+.myfavoritemovies li
+{
+    margin-bottom: 10px;
+}
+.myfavoritemovies .movieinfolist p
+{
+    color: yellow;
+    margin: 0;
+}
+.myfavoritemovies .movieinfolist span
+{
+    margin-left: 20px;
+}
