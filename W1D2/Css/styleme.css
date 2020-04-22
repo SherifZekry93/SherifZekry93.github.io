@@ -23,12 +23,11 @@ body
 {
     color: tomato;
 }
-.moodsSection img
+.equalsizedimg
 {
     width: 400px;
     height: 400px;
 }
-
 .bigsize
 {
     font-size: 28px;
@@ -40,4 +39,9 @@ body
 .centertext
 {
     text-align: center;
+}
+
+.myfavoritemovies a
+{
+    
 }
