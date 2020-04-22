@@ -28,3 +28,16 @@ body
     width: 400px;
     height: 400px;
 }
+
+.bigsize
+{
+    font-size: 28px;
+}
+.italicfont
+{
+    font-style: italic;
+}
+.centertext
+{
+    text-align: center;
+}
