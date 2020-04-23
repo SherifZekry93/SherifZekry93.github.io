@@ -1,6 +1,6 @@
 body
 {
-    background: url(./images/background.png);
+    background: url(../images/background.png);
     background-repeat: repeat;
     font-size: 8pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -10,7 +10,7 @@ body
 
 .header-image-bg
 {
-    background: url(./images/bannerbg.png);
+    background: url(../images/bannerbg.png);
     background-repeat: repeat-x;
     text-align: center;
 }
@@ -47,7 +47,7 @@ body
 /***title***/
 .full-container .first-col .title
 {
-    background: url(./images/rbg.png);
+    background: url(../images/rbg.png);
 }
 .full-container .first-col .title img
 {
