@@ -31,6 +31,7 @@ body
     border: 4px gray solid;
     border-radius: 20px;
     overflow: hidden;
+    position: relative;
 }
 .full-container .first-col
 {
@@ -149,4 +150,40 @@ body
 .second-bubble-container .writer-name-block
 {
     width: 100%;
+}
+
+.second-col
+{
+    background-color: #A2B964;
+}
+.second-col dt
+{
+    font-weight: bold;
+}
+.second-col dl div
+{
+    margin-left: 10pt;
+    margin-bottom: 20px;
+}
+
+.second-col div ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: #A2B964;
+}
+
+.validator-images
+{
+    opacity: 0.5;
+    position: fixed;
+    right: 50px;
+    bottom: 10px;
 }
