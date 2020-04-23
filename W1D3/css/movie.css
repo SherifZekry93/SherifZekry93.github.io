@@ -1,0 +1,152 @@
+body
+{
+    background: url(./images/background.png);
+    background-repeat: repeat;
+    font-size: 8pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.header-image-bg
+{
+    background: url(./images/bannerbg.png);
+    background-repeat: repeat-x;
+    text-align: center;
+}
+.titlle-header
+{
+    font-size: 24pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 3px 3px #999999;   
+    text-align: center; 
+}
+
+/***Full Page container ***/
+
+.full-container
+{
+    width: 800px;
+    margin: 0 auto;
+    border: 4px gray solid;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.full-container .first-col
+{
+    float: left;
+    width: 550px;
+}
+
+.full-container .second-col
+{
+    float: right;
+    width: 250px;
+}
+
+/***title***/
+.full-container .first-col .title
+{
+    background: url(./images/rbg.png);
+}
+.full-container .first-col .title img
+{
+    vertical-align: bottom;
+}
+.full-container .first-col .title span
+{
+    font-weight: bold;
+    color: red;
+    font-size: 48pt;
+}
+/**generaal bubble view**/
+
+.bubble-view
+{
+    background-color: #E8DC9B;
+    float: left;
+    padding: 5px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px gray solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.bubble-view img
+{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.bubble-view p
+{
+    padding: 0 10px;
+    margin-top: 0;
+    font-size: 8pt;
+    font-weight: bold;
+}
+/***first-bubble-container***/
+.first-bubble-container
+{
+    
+    overflow: hidden;
+    clear: both;
+}
+.first-bubble-container .bubble-view
+{
+    width: 47%;
+    margin-left:2%;
+    background-color: #E8DC9B;
+    float: left;
+    padding: 5px 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px gray solid;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.height-125
+{
+    height: 125px;
+}
+/**general writer name**/
+.writer-name-block
+{
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+}
+
+.writer-name-block p
+{
+    margin-left: 40px;
+    line-height: 15px;
+}
+.writer-name-block div img
+{
+    float: left;
+}
+/***first-bubble-container***/
+
+
+/*second bubble type not equal*/
+.second-bubble-container
+{
+    width: 47%;
+    float: left;
+    margin-left: 2%;
+}
+
+.second-bubble-container .author-review-one 
+{
+    width: 100%;
+    overflow: hidden;
+}
+.second-bubble-container .author-review-one .bubble-view
+{
+    width: 100%;
+}
+.second-bubble-container .writer-name-block
+{
+    width: 100%;
+}
