@@ -1,0 +1,18 @@
+.navbar-brand
+{
+    padding-right: 30px;
+}
+.nav-link
+{
+    border-left: 1px solid white;
+    padding-left: 35px !important;
+    padding-right: 35px !important;
+}
+.bg-violet
+{
+    background-color: #3eaae8;
+}
+.color-light-gray
+{
+    color: darkgray;
+}
