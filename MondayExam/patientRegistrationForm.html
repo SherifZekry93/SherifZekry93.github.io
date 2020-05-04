@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Mid Term Exam!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-orange">
+        <a class="navbar-brand active" href="#" style="color: white;">Holy Cross Medical Center</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html"> Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="./patientRegistrationForm.html">Patients</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+                <label class="mr-3" style="color:white" id="todayLabel">
+        </label>
+            </form>
+        </div>
+    </nav>
+    <div class="container">
+        <h3 class="mt-3">*Patients Registration</h3>
+        <hr>
+        <form id="userInfoForm">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <label for="exaampleInputPatientID" class="text-muted">*Patients ID No:</label>
+                        <input type="text" required class="form-control" id="exaampleInputPatientID" placeholder="EP-XXX-XXXXXX" pattern="\b(P|EP)\b-\d{3}-\d{6}">
+                        <small id="fullNameHelp" class="form-text text-muted">Enter the patient Id number in the specified format
+              ID.</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="exampleInpuFirstName" class="text-muted">*First Name:</label>
+                        <input type="text" required class="form-control" id="exampleInputFirstName" placeholder="First Name">
+                        <small id="fullCitizenIDHelp" class="form-text text-muted">Enter the patient's first name</small>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="exampleInputMiddleName" class="text-muted">*Middle Intitials:</label>
+                        <input type="text" required class="form-control" id="exampleInputMiddleName" placeholder="Enter Middle Initial(s)" required>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="exampleInputLastName" class="text-muted">*Last Name:</label>
+                        <input type="text" required class="form-control" id="exampleInputLastName" placeholder="Enter Last Name" required>
+                        <small id="fullSoocialHelp" class="form-text text-muted">Enter the Patient's last Name</small>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="form-group">
+                        <label for="exampleUserDateOfBirth" class="text-muted">*Date Of Birth:</label>
+                        <input type="date" required class="form-control" id="exampleUserDateOfBirth" placeholder="Enter Last Name" required>
+                        <small class="form-text text-muted">Enter the patient's date of birth</small>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="form-group">
+                        <label for="exampleUserDepartment" class="text-muted">*Department:</label>
+                        <select required class="form-control" id="exampleUserDepartment" name="ddlState">
+              <option value="">Select...</option>
+              <option value="Arizona">Cardiology</option>
+              <option value="New Mexico">Ear, Nose and Throat</option>
+              <option value="Texas">Primary Care</option>
+              <option value="Texas">[Unassigned]</option>
+            </select>
+                        <small class="form-text text-muted">Select the department providing care</small>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <label class="text-muted">*Is this an Out-Patient?</label><br>
+                    <div class="form-group">
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input required type="radio" name="seniorCitizenRadio" id="radioradioSeniorCitizenYes" class="custom-control-input" value="Yes">
+                            <label for="radioradioSeniorCitizenYes" class="custom-control-label">Yes</label>
+                        </div>
+                        <div class="custom-control custom-radio custom-control-inline">
+                            <input required type="radio" name="seniorCitizenRadio" id="radioradioSeniorCitizenNo" class="custom-control-input" value="No">
+                            <label for="radioradioSeniorCitizenNo" class="custom-control-label">No</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="buttonsContainer" class="mb-4">
+                <div class="buttons">
+                    <button id="btnReset" type="reset" class="btn btn-secondary btn-inline">Reset</button>
+                    <button id="btnSubmit" type="submit" class="ml-1 btn bg-orange text-white btn-inline">Register-Patient</button>
+                </div>
+
+            </div>
+            <div class="form-check" style="float: left;">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Elderly Patients</label>
+                <br>
+                <input type="checkbox" class="form-check-input " id="exampleCheck2">
+                <label class="form-check-label" for="exampleCheck2">Out-Patients(working)</label>
+            </div>
+
+
+            <div class="col-12">
+
+            </div>
+        </form>
+
+
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col" class="text-muted">Patient ID No</th>
+                    <th scope="col" class="text-muted">First Name</th>
+                    <th scope="col" class="text-muted">Middle Initial(s)</th>
+                    <th scope="col" class="text-muted">Last Name</th>
+                    <th scope="col" class="text-muted">Date Of Birth</th>
+                    <th scope="col" class="text-muted">Department</th>
+                    <th scope="col" class="text-muted">Out-Patient</th>
+
+                </tr>
+            </thead>
+            <tbody id="tableInfoBody">
+                <!-- <tr>
+          <td>1234567891</td>
+          <td>123-12-1234</td>
+          <td>Sherif Zekry</td>
+          <td>Arizona</td>
+          <td>Yes</td>
+          </tr> -->
+            </tbody>
+        </table>
+    </div>
+    <footer>
+        <p class="ml-2" style="float: left;"> Sherif Zekry ::: CS472-WAP :::611094</p>
+        <p class="mr-2" style="float: right;">&copy; May 2020</p>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./js/myJS.js"></script>
+</body>
+
+</html>

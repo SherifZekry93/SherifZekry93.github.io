@@ -15,8 +15,7 @@ $(document).ready(function(){
         $('#displayInfo').append('<div>'+
             number
         +'</div>');
-
-
+        
         $('#displayInfo').append('<div>'+
         unitPrice
         +'</div>');
